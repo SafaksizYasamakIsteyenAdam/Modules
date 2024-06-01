@@ -3,21 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/androidstudio.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
-    <script>hljs.highlightAll();</script>
-    <title>Script Execution</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Players</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-    <style>
-        *{background: #282b2e;}
-    </style>
 <body>
-    <pre>
-        <code class="language-lua">
-            <textarea id="scriptArea" class="script-area"></textarea>
-        </code>
-    </pre>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Players</h1>
+            <input type="text" placeholder="Search Players" class="search-box">
+            <div class="player-list">
+                <div class="player">
+                    <div class="avatar"></div>
+                    <div class="player-name">Player 1</div>
+                </div>
+                <div class="player">
+                    <div class="avatar"></div>
+                    <div class="player-name">Player 2</div>
+                </div>
+                <div class="player">
+                    <div class="avatar"></div>
+                    <div class="player-name">Player 3</div>
+                </div>
+                <div class="player">
+                    <div class="avatar"></div>
+                    <div class="player-name">Player 4</div>
+                </div>
+                <div class="player">
+                    <div class="avatar"></div>
+                    <div class="player-name">Player 5</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="waiting">
+                <div class="icon">ℹ️</div>
+                <div class="message">
+                    <h2>Waiting For Game...</h2>
+                    <p>In order for the player list to load, your linked Roblox account must be in a server that is connected to serverside.fun.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
